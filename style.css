@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    transition-duration: 200ms;
+}
+
+
+body {
+    background-image: url("assets/backbang.jpg");
+    background-size: cover;
+}
+
+header {
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 100px;
+    font-style: bolder;
+    display: inline;
+    letter-spacing: -7px;
+}
+
+header img {
+    height: 60px;
+    display: inline-block;
+}
+
+article {
+    padding: 10px;
+    background-color: rgb(169, 169, 227);
+    text-align: center;
+    width: 40vw;
+    height: 36vh;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.options,
+.play {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 8vh;
+    margin-bottom: 15px;
+}
+
+.options {
+    cursor: pointer;
+
+}
+
+.options span:hover {
+    opacity: 0.7;
+
+}
+
+.options span:active {
+    opacity: 0.5;
+
+}
+
+.myplay, .playmachine {
+    opacity: 0;
+}
+
+.results {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.me span {
+    color: rgb(224, 95, 95);
+}
+
+.it span {
+    color: rgb(42, 42, 128);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    height: 35vh;
+    padding: 0 15vh;
+}
