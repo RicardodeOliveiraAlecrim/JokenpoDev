@@ -2,14 +2,13 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GamesDev</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>jokenpo</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
@@ -26,36 +25,39 @@
 
         <article>
 
-            <div class="options">
-                <p><span>&#x270A;</span></p>
+            <div class="choices">
+                <p><span onclick="options('rock')">&#x270A;</span></p>
 
-                <p><span>&#x1F91A;</span></p>
+                <p><span onclick="options('paper')">&#x1F91A;</span></p>
 
-                <p><span>&#x270C;</span></p>
+                <p><span onclick="options('scissors')">&#x270C;</span></p>
 
-                <p><span>&#x1F44C;</span></p>
+                <p><span onclick="options('lizzards')">&#x1F44C;</span></p>
 
-                <p><span>&#x1F596;</span></p>
+                <p><span onclick="options('spock')">&#x1F596;</span></p>
             </div>
 
             <div class="play">
 
-                <p class="myplay"><span>&#x270A;</span></p>
+                <p><span class="myPlay"></span></p>
 
                 <p><span>&#x274C;</span></p>
 
-                <p class="playmachine"><span>&#x1F91A;</span></p>
-
-            </div >
-
-            
-            <div class="results">
-
-                <p  class="me">Sua pontuação : <span>0</span></p>
-
-                <p class="it">Pontuação da máquina : <span>0</span></p>
+                <p><span class="playMachine"></span></p>
 
             </div>
+
+
+            <div class="results">
+
+                <p>Sua pontuação : <span class="me">0</span></p>
+
+                <p>Pontuação da máquina : <span class="it">0</span></p>
+
+
+            </div>
+
+            <p><span class="result"></span></p>
 
         </article>
 
