@@ -105,21 +105,24 @@ footer {
 
 
     header h1 {
-        font-size: 80px;
+        font-size: 9vh;
         letter-spacing: -5px
     }
 
     article {
         padding: 08px;
         width: 80vw;
-        height: 30vh;
+        height: 250px;
 
     }
 
+  
+  
     .choices,
     .play {
         font-size: 4vh;
         margin-bottom: 5px;
+      height: 25%;
     }
 
     footer {
@@ -139,11 +142,13 @@ footer {
     }
 
     .results {
-        display: inline;        
+        display: inline;
+       height: 25%;
     }
 
     .result  {
         font-size: 4vh;
+      height: 25%;
     }
 
 }
